@@ -13,6 +13,8 @@ body {
 }
 
 body p {
+    font-family: cursive;
+    font-size: .8em;
     text-align: justify;
     margin: 5px 5px;
     text-indent: 20px;
