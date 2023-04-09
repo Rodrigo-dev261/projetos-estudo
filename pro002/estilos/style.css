@@ -9,8 +9,9 @@
 }
 
 .cab1 {
-    background-image: url(../imagens/guerreiros-321.jpg);
-    height: 168px;
+    background-image: url(../imagens/guerreiros-321-trans.jpg);
+    background-repeat: no-repeat;
+    height: 125px;
 }
 
 #menu {
