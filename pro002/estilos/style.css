@@ -21,7 +21,7 @@ body p {
 .cab1 {
     background-image: url(../imagens/guerreiros-321-trans.jpg);
     background-repeat: no-repeat;
-    width: 320px;
+    width: 100vw;
     height: 125px;
 }
 
