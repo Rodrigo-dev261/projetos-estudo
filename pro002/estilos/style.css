@@ -8,9 +8,20 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+
+body p {
+    text-align: justify;
+    margin: 5px 5px;
+    text-indent: 20px;
+}
+
 .cab1 {
     background-image: url(../imagens/guerreiros-321-trans.jpg);
     background-repeat: no-repeat;
+    width: 320px;
     height: 125px;
 }
 
@@ -35,10 +46,14 @@
 
 .titulo {
     font-family: 'Rock Salt', cursive;
+    color: rgba(199, 20, 35, 0.822);
     text-align: center;
     font-size: 1.3em;
-    
-    }
+}
+
+.subt {
+    margin-top: 5px;
+}
 
 
 
