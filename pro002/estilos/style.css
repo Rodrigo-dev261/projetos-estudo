@@ -3,99 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: rgba(218, 151, 64, 0.616);
+.cab1 {
+    background-image: url(../imagens/guerreiros-321.jpg);
+    height: 168px;
+}
+
+#menu {
+    list-style-type: none;
+    background-color: aqua;
+    padding: 5px 0;
+    margin-top: -5px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
 }
 
-header {
-    background-image: url(../imagens/guerreiros.jpg);
-    background-position: top bottom;
-    background-repeat: no-repeat;
-    display: block;
-    font-family: 'Rock Salt', cursive;
-    background-color: rgb(127, 187, 255);
-    width: 100%vw;
-    text-align: center;
-    border-bottom: 1px solid black;
-    font-size: .8em;  
-}
-
-header > h1 {
-    margin: 0px 0px 50px 0px;
-    font-size: 1.4em;
-    padding: 15px 0px;
-    color: rgba(158, 25, 25, 0.795);
-}
-
-.links ul li a  {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.links ul li {
-    list-style: none;
+#menu li {
     display: inline;
 }
 
-a {
-    padding-top: 20px;
+#menu li a {
     text-decoration: none;
-    color: white;
-    transition-duration: 1s;  
+    display: inline;
+    margin-left: 8px;
 }
 
-a:hover {
-    color: rgba(0, 0, 255, 0.815);
-}
-
-nav {
-    background-color: rgb(143, 143, 228);
-}
-
-img {
-    display: block;
-    max-width: 95vw;
-    display: block;
-    margin: auto;
-    border: 1px solid blue;
-}
-
-h1.começo {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px 0px;
+.titulo {
+    font-family: 'Rock Salt', cursive;
     text-align: center;
-    font-size: 1.5em;
-    color: blue;
-
-}
-
-article > img {
-    border: none;
-    border-radius: 5px;
+    font-size: 1.3em;
     
-}
+    }
 
-article > h5 {
-    font-size: .9em;
-    text-align: center;
-    margin: 5px;
-}
 
-article > p {
-    font-family: cursive;
-    text-align: justify;
-    text-indent: 15px;
-    font-size: .8em;
-    margin: 5px;
-    white-space: 5px;
-
-}
-
-footer {
-    display: none;
-}
 
