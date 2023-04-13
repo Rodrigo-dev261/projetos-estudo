@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+@media screen and (min-width: 768) and (max-width: 992px) {
+   img#g200 { display: block; } 
+   img#g400 { display: none; }
+   
+   img#g400 {
+    width: 425px;
+   }
+}
+
+@media screenand (min-width: 992px) and (max-width:1200px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
